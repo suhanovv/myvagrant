@@ -11,9 +11,9 @@ setup(
     install_requires=[
         'PyYAML'
     ],
-    url='',
+    url='https://github.com/suhanovv/myvagrant',
     license='',
-    author='vsuhanov',
-    author_email='',
+    author='suhanovv',
+    author_email='vadimsuhanov@gmao;.com',
     description=''
 )
