@@ -174,7 +174,6 @@ class Vagrant(object):
 
 
     def init(self, *args, **kwargs):
-        print kwargs
         if len(args) == 0:
             command = ['init', kwargs.get('box_name', None), kwargs.get('box_url', None)]
             self._run_command(*command)
